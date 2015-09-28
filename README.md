@@ -27,7 +27,7 @@ $firewall = new HtaccessAdapter('path/to/.htaccess');
 $host = IP::fromString('123.0.0.1');
 
 // Block the host
-$firewall->block($host);
+$firewall->deny($host);
 ```
 
 ## Planned Adapters
