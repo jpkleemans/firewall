@@ -7,29 +7,56 @@ use Firewall\Host\Host;
 class HtaccessAdapter extends AbstractAdapter
 {
     /**
-     * Block host.
+     * Deny host.
      *
      * @param Host $host
      */
-    public function block(Host $host)
+    public function deny(Host $host)
     {
     }
 
     /**
-     * Unblock host.
+     * Allow host.
      *
      * @param Host $host
      */
-    public function unblock(Host $host)
+    public function allow(Host $host)
     {
     }
 
     /**
-     * Get all blocked hosts.
+     * Undeny host.
+     *
+     * @param Host $host
+     */
+    public function undeny(Host $host)
+    {
+    }
+
+    /**
+     * Unallow host.
+     *
+     * @param Host $host
+     */
+    public function unallow(Host $host)
+    {
+    }
+
+    /**
+     * Get all denied hosts.
      *
      * @return array
      */
-    public function getBlocks()
+    public function getDenied()
+    {
+    }
+
+    /**
+     * Get all allowed hosts.
+     *
+     * @return array
+     */
+    public function getAllowed()
     {
     }
 }
