@@ -35,6 +35,8 @@ $firewall->block($host);
 - Htaccess
 - NGINX
 - IIS
+- HHVM
+- lighttpd
 - PSR-7 Middleware
 
 ## Testing
