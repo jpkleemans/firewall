@@ -1,0 +1,4 @@
+suites:
+    firewall:
+        namespace: Firewall
+        psr4_prefix: Firewall
